@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.22)
+project(tetris)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(HEADER_FILES "colors.hpp;game.hpp;grid.hpp;block.hpp;blocks.hpp")
+set(SOURCE_FILES "main.cc;colors.cc;game.cc;grid.cc;block.cc;blocks.cc")
+find_package(raylib ${RAYLIB_VERSION} QUIET)
+add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES}) 
+target_link_libraries(${PROJECT_NAME} raylib)
