@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yogesh9000/tetris-game.git
+   git clone https://github.com/Yogesh9000/tetris-game.git
    ```
 
 2. Navigate to the project directory:
