@@ -10,8 +10,6 @@ the nostalgia of one of the most iconic video games in history.
   - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Controls](#controls)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
